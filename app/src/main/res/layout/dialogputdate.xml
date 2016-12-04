@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:padding="40dip" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/studentputdate"
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:hint="Enter Class Of Student"
+            android:background="#FFF176">
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/dateputdate"
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:hint="DATE (DD-MM-YYYY)"
+            android:background="#FFF176">
+
+        </EditText>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
